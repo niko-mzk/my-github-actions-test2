@@ -1,0 +1,28 @@
+#----------------------------------
+# This is my test Workflow
+#
+# By Niko 2021.
+#----------------------------------
+
+name: my-github-actions-test
+
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  my_testing:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print Hello Message
+      run: echo "hello World from testing job"
+
+  my_deployment:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print Hello Message2
+      run: echo "Hello World from deployment job"
+        
+    
+        
