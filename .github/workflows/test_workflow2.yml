@@ -16,6 +16,12 @@ jobs:
     - name: Print Hello Message
       run: echo "hello World from testing job"
 
+    - name: Execute Few Commands
+      run: |
+        echo "Hello Messag1"
+        echo "Hellpo message2"
+
+
   my_deployment:
     runs-on: ubuntu-latest
     steps:
