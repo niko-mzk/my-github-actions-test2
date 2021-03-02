@@ -4,7 +4,7 @@
 # By Niko 2021.
 #----------------------------------
 
-name: my-github-actions-test
+name: my-github-actions-test3
 
 on: 
   push:
